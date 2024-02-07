@@ -2,7 +2,16 @@ body {
 	background-color: gray;
 	margin: 0 10%;
 	font-family:sans-serif;
-
+	
+img {
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		width: 50px;
+		max-width: 100%;
+		height: auto;
+	  }
+	  
 }
 h1 {
 	text-align: center;

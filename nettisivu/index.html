@@ -2,26 +2,47 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <title>It hommeli</title>
+        <title>IT Insight</title>
         
 
   <img src="pexels-lukas-574069.jpg" alt="it" class="center">
 
     </head>
     <body>
-        <h1>IT-Hommeli OY</h1>
+        
+        <h1>IT Insight</h1>
         <h2 class="otsikot">Tietoa Meistä</h2>
         <p>Olemme Turkulainen IT-konsultointia sekä palveluita tarjoava yritys.</p>
     
         <h2 class="otsikot">AI ChatBot</h2>
         <ul>
             <p>- Nopea apu pienissä ongelmissa <br> - Ilmainen 30 päivän kokeilujakso!</p>
-        </ul>    
-        <h2 class="otsikot">Ota meihin yhteyttä!</h2>
+            <br>
+        </ul>   
+        <div class="contact-form">
+            <h2>Ota meihin yhteyttä!</h2>
+            <form action="process_form.php" method="post">
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Sähköposti:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Kirjoita viestisi tähän:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Lähetä</button>
+            </form>
+            
+        </div> 
+        <h2 class="otsikot">Yhteystiedot</h2>
         <p>Puhelinnumero: 0501231235<br>
-        Sähköposti: ithommeli@ithommeli.com<br>
+        Sähköposti: itinsight@itinsight.com<br>
         Osoite: Joukahaisenkatu 3, Turku</p>
+
+       
 
         <footer><em>ICT-City, Joukahaisenkatu 3, 20520 Turku</em>
         </footer>

@@ -1,7 +1,8 @@
 body {
-	background-color: gray;
+	background: linear-gradient(to right, #808080, #ffffff, #808080);
 	margin: 0 10%;
 	font-family:sans-serif;
+	align-items: center;
 	
 img {
 		border: 1px solid #ddd;
@@ -56,14 +57,40 @@ p {
 	font-size: 100%;
 
 }
-#boba {
-	text-align: center;
-	text-transform: uppercase;
-	color: black;
-	font-family:'Times New Roman', Times, serif;
-	text-shadow: .07em .07em .1em;
-	
+
+.contact-form {
+	background-color: lightgray;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	margin: auto; /* Center the box */
 }
+
+.contact-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-form button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
 footer {
 	border-top: 2px solid;
 	text-align: center;

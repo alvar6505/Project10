@@ -24,10 +24,23 @@ img {
 		padding-left: 15px;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		border-radius: 15px;
+	
+	}
+	.language img {
+		width: 60px; 
+		height: auto; 
+		cursor: pointer; 
+		background-color: transparent;
+		border: none;
+	}
+	
+	.language img:hover {
+		filter: brightness(80%);
 	}
 	.navdiv{
 		display: flex; align-items: center; justify-content: space-between;
-	}
+	
+	} 
 	.logo a{
 		font-size: 35px; font-weight: 600; color: white;
 	}

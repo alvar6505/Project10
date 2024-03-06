@@ -1,0 +1,143 @@
+body {
+	background: linear-gradient(to right, #808080, #ffffff, #808080);
+	margin: 0 10%;
+	font-family:sans-serif;
+	align-items: center;
+	
+img {
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		width: 550px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+
+	}
+	.navbar{
+		background: linear-gradient(to right, #808080, #A9A9A9);
+		font-family: calibri;
+		padding-right: 15px;
+		padding-left: 15px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		border-radius: 15px;
+	
+	}
+	.language img {
+		width: 60px; 
+		height: auto; 
+		cursor: pointer; 
+		background-color: transparent;
+		border: none;
+	}
+	
+	.language img:hover {
+		filter: brightness(80%);
+	}
+	.navdiv{
+		display: flex; align-items: center; justify-content: space-between;
+	
+	} 
+	.logo a{
+		font-size: 35px; font-weight: 600; color: white;
+	}
+	li{
+		list-style: none; display: inline-block;
+	}
+	li a{
+		color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+	}
+	button{
+		background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+	}
+	button a{
+		color: white; font-weight: bold; font-size: 15px;
+	}
+	  
+
+h1 {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-shadow: .07em .07em .1em lightgray;
+	color:black;
+	margin-top: 40px;
+	text-transform: uppercase;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	font-size: 500%;
+}
+h2 {
+	text-align: center;
+	color: black;
+	text-decoration: wavy;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	
+}
+h2 img {
+	width: 100px;
+	height: 100px;
+
+}
+.otsikot {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: capitalize;
+	text-shadow: .05em .05em .1em lightgray;
+
+}
+p {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+
+}
+
+.contact-form {
+	background-color: lightgray;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	margin: auto; /* Center the box */
+	text-align: center;
+}
+
+.contact-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-form button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+footer {
+	border-top: 2px solid;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 100%;
+}
+
+

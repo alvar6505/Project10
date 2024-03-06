@@ -140,22 +140,4 @@ footer {
 	font-size: 100%;
 }
 
-.box {
-  width: 1000px;
-  height: 200px;
-  border: 4px solid black;
-  padding: 10px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
-	
-}
-.box2 {
-  width: 350px;
-  height: 710px;
-  border: 4px solid black;
-  padding: 10px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;	
-}
+

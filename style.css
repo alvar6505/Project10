@@ -3,7 +3,7 @@ body {
 	margin: 0 10%;
 	font-family:sans-serif;
 	align-items: center;
-	
+}
 img {
 		border: 1px solid #ddd;
 		border-radius: 4px;
@@ -16,7 +16,7 @@ img {
 		margin-right: auto;
 	  }
 
-	}
+	
 	.navbar{
 		background: linear-gradient(to right, #808080, #A9A9A9);
 		font-family: calibri;
